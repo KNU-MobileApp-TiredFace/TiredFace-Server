@@ -10,28 +10,27 @@
     ```
 3. 학습 시작
 
-```
-python train.py --train=yes
-```
+    ``` 
+    python train.py --train=yes
+    ```
 
 4. 학습 시키고 평가하기
 
-```
-python train.py --train=yes --evaluate=yes
+    ```
+    python train.py --train=yes --evaluate=yes
 
-학습을 두번 진행하는 이유는 정확도를 높이기 위해
-실제 학습 한번 거쳤을때의 accuracy가 60~70%인데 비해
-두번 거치면 99%까지 상승하는 효과! 놀라워라.
-```
+    학습을 두번 진행하는 이유는 정확도를 높이기 위해 실제 학습 한번 거쳤을때의 accuracy가 60~70%인데 비해 두번 거치면 99%까지 상승하는 효과! 
+    놀라워라.
+    ```
 
 5. 입력한 이미지로 Predict 하는법
 
-```
-python start.py
+    ```
+    python start.py
 
-이때 start.py의 starting('*.jpg')의 매개변수로 평가할 파일명을 넣어야함.
-서버쪽에서 안드로이드 스튜디오에서 받아온 파일 이름 매개변수로 사용할 것.
-```
+    이때 start.py의 starting('*.jpg')의 매개변수로 평가할 파일명을 넣어야함.
+    서버쪽에서 안드로이드 스튜디오에서 받아온 파일 이름 매개변수로 사용할 것.
+    ```
 
 # 원 코드 출처
 
