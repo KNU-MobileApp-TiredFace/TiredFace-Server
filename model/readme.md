@@ -19,9 +19,11 @@
     ```
     python train.py --train=yes --evaluate=yes
 
-    학습을 두번 진행하는 이유는 정확도를 높이기 위해 실제 학습 한번 거쳤을때의 accuracy가 60~70%인데 비해 두번 거치면 99%까지 상승하는 효과! 
-    놀라워라.
+    학습을 두번 진행하는 이유는 정확도를 높이기 위해 실제 학습 한번 거쳤을때의 accuracy가 60~70%인데 
+    두번 거치면 99%까지 상승하는 효과!     
     ```
+<img width="465" alt="2018-12-05 2 42 41" src="https://user-images.githubusercontent.com/43809168/49492563-1d99b780-f89c-11e8-8c85-09e492788163.png">
+놀라워라~
 
 5. 입력한 이미지로 Predict 하는법
 
