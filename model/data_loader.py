@@ -21,6 +21,7 @@ def load_data(validation=False, test=False):
         if NETWORK.use_hog_and_landmarks:
             data_dict['X2'] = np.load(DATASET.train_folder + '/landmarks.npy')
             data_dict['X2'] = np.array([x.flatten() for x in data_dict['X2']])
+            print(np.load(DATASET.train_folder + '/hog_features.npy').shape, data_dict['X2'].shape)
             data_dict['X2'] = np.concatenate((data_dict['X2'], np.load(DATASET.train_folder + '/hog_features.npy')), axis=1)
         data_dict['Y'] = np.load(DATASET.train_folder + '/labels.npy')
         if DATASET.trunc_trainset_to > 0:
